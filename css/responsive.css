@@ -89,7 +89,7 @@
     padding: 45px 0;
 }
 .right-border {
-    border-right: 0px solid #2C90F1;
+    border-right: none;
     margin-bottom: 40px;
 }
 .contact {
