@@ -1,2 +1,1 @@
-# Medix0
-Responsive HTML Website
+# Medix0 Responsive HTML Website
