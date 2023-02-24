@@ -1,0 +1,425 @@
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* Navbar */
+.menu ul li a {
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+/* Navbar */
+
+/*  banner */
+.banner {
+    padding: 86px 0 40px;
+}
+.banner-title {
+    padding: 60px 0;
+}
+.banner-title h1 {
+    font-size: 24px;
+    line-height: 35px;
+}
+.banner-title p {
+    margin: 15px 0 28px;
+}
+.custom-btn {
+    padding: 8px 4px;
+    margin-right: 6px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.trans-btn {
+    padding: 8px 6px;
+    font-size: 14px;
+     font-weight: 400;
+}
+/*  banner */
+
+/* about */
+.about {
+    margin: 50px 0;
+}
+.about-title{
+    margin-top: 35px;
+}
+.about-title h5 {
+    font-size: 17px;
+}
+.about-title h2 {
+    margin: 8px 0 12px;
+    font-size: 20px;
+}
+.about-title p {
+    font-size: 15px;
+}
+.custom-btn {
+    padding: 8px 16px;
+}
+/* about */
+
+/* Service */
+.service {
+    padding: 45px 0;
+}
+.section-title h2 {
+    font-size: 22px;
+}
+.service-single {
+    margin-top: 30px;
+}
+/* Service */
+
+/* Department */
+.department {
+    padding: 45px 0;
+}
+.department-content {
+    padding: 15px 1px 20px 14px;
+    font-size: 14px;
+}
+.department-content h3 {
+    font-size: 19px;
+}
+/* Department */
+
+/* Emergency */
+.emergency{
+    padding: 45px 0;
+}
+.right-border {
+    border-right: 0px solid #2C90F1;
+    margin-bottom: 40px;
+}
+.contact {
+    margin-left: 0px;
+}
+.m-left{
+    margin-left: 0px;
+}
+.appoinment h4 {
+    font-size: 20px;
+}
+/* Emergency */
+
+/* Doctors */
+.doctors {
+    padding: 45px 0;
+}
+.doctors-single {
+    margin-top: 30px;
+}
+/* Doctors */
+
+/* Faq */
+.make-appoinment{
+    padding: 45px 0;
+}
+.f-ask {
+    width: 99%;
+    margin: 0 auto;
+}
+.f-ask h3 {
+    font-size: 19px;
+    font-weight: 600;
+
+}
+.accordion {
+    font-size: 16px;
+}
+.appoinment-form{
+    width: 99%;
+    margin: 20px auto 0;
+}
+.form-title h3 {
+    font-size: 22px;
+}
+/* Faq */
+
+/* News */
+.news {
+    padding: 45px 0;
+}
+.news-heading h2 {
+    font-size: 24px;
+}
+.news-single {
+    margin-top: 30px;
+}
+.news-content h5 {
+    margin: 0px 0 10px;
+    font-size: 17px;
+}
+/* News */
+
+/* Footer */
+footer {
+    padding: 15px 0 20px;
+}
+/* Footer */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/* Navbar */
+.menu ul li a {
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+/* Navbar */
+
+/*  banner */
+.banner {
+    padding: 86px 0 40px;
+}
+.banner-title {
+    padding: 75px 0;
+}
+.banner-title h1 {
+    font-size: 24px;
+    line-height: 35px;
+}
+.banner-title p {
+    margin: 15px 0 28px;
+}
+.custom-btn {
+    padding: 10px 18px;
+
+}
+.trans-btn {
+    padding: 10px 18px;
+}
+/*  banner */
+
+/* about */
+.about {
+    margin: 50px 0;
+}
+.about-title{
+    margin-top: 35px;
+}
+.about-title h5 {
+    font-size: 18px;
+}
+.about-title h2 {
+    margin: 8px 0 12px;
+    font-size: 22px;
+}
+.about-title p {
+    font-size: 15px;
+}
+.custom-btn {
+    padding: 8px 16px;
+}
+/* about */
+
+/* Service */
+.service {
+    padding: 45px 0;
+}
+.section-title h2 {
+    font-size: 26px;
+}
+/* Service */
+
+/* Department */
+.department {
+    padding: 45px 0;
+}
+.department-content {
+    padding: 15px 1px 20px 14px;
+    font-size: 14px;
+}
+.department-content h3 {
+    font-size: 19px;
+}
+/* Department */
+
+/* Emergency */
+.emergency{
+    padding: 45px 0;
+}
+.contact {
+    margin-left: 20px;
+}
+.m-left{
+    margin-left: 20px;
+}
+.appoinment h4 {
+    font-size: 20px;
+}
+/* Emergency */
+
+/* Doctors */
+.doctors {
+    padding: 45px 0;
+}
+/* Doctors */
+
+/* Faq */
+.make-appoinment{
+    padding: 45px 0;
+}
+.f-ask {
+    width: 93%;
+    margin: 0 auto;
+}
+.f-ask h3 {
+    font-size: 26px;
+}
+.accordion {
+    font-size: 17px;
+}
+.appoinment-form{
+    width: 93%;
+    margin: 30px auto 0;
+}
+.form-title h3 {
+    font-size: 25px;
+}
+/* Faq */
+
+/* News */
+.news {
+    padding: 45px 0;
+}
+.news-heading h2 {
+    font-size: 32px;
+}
+.news-single {
+    margin-top: 30px;
+}
+/* News */
+
+/* Footer */
+footer {
+    padding: 15px 0 20px;
+}
+/* Footer */
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* 	banner */
+.banner {
+    padding: 86px 0 40px;
+}
+.banner-title {
+    padding: 75px 0;
+}
+.banner-title h1 {
+    font-size: 30px;
+    line-height: 35px;
+}
+.custom-btn {
+    padding: 10px 18px;
+
+}
+.trans-btn {
+    padding: 10px 18px;
+}
+/* 	banner */
+
+/* about */
+.about {
+    margin: 50px 0;
+}
+.about-title h5 {
+    font-size: 18px;
+}
+.about-title h2 {
+    margin: 10px 0 15px;
+    font-size: 22px;
+}
+.about-title p {
+    font-size: 14px;
+}
+.custom-btn {
+    padding: 8px 16px;
+}
+/* about */
+
+/* Service */
+.service {
+    padding: 55px 0;
+}
+.section-title h2 {
+    font-size: 30px;
+}
+/* Service */
+
+/* Department */
+.department {
+    padding: 55px 0;
+}
+
+/* Department */
+
+/* Emergency */
+.emergency{
+    padding: 54px 0;
+}
+.m-left{
+    margin-left: 50px;
+}
+/* Emergency */
+
+/* Doctors */
+.doctors {
+    padding: 54px 0;
+}
+/* Doctors */
+
+/* Faq */
+.make-appoinment{
+    padding: 54px 0;
+}
+.f-ask {
+    width: 80%;
+    margin: 0 auto;
+}
+.accordion {
+    font-size: 17px;
+}
+.appoinment-form{
+    width: 80%;
+    margin: 30px auto 0;
+}
+/* Faq */
+
+/* News */
+.news {
+    padding: 54px 0;
+}
+.news-heading h2 {
+    font-size: 32px;
+}
+/* News */
+
+/* Footer */
+footer {
+    padding: 15px 0 20px;
+}
+/* Footer */
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/* Extra Extra large devices (Extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}

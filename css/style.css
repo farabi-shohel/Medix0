@@ -1,0 +1,522 @@
+/*===================== 
+Master Stylesheet
+===================
+Medical / Hospital Html Landing page
+Website Name : Medixo
+Website Designer : Farabi Shohel
+Languages: HTML, CSS, Bootstrap, Javsascript, Jquery
+Copyright : Farabi Shohel
+
+==========================*/
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+/*==== COMMON CSS START ====*/
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #64676c;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+	color: #102039;
+}
+/*==== COMMON CSS END ====*/
+
+/*==== HEADER CSS START ====*/
+header{
+	padding: 8px 0;
+	background: #DBEBFA;
+	border-bottom: 1px solid #f7f7f7;
+	width:100%;
+  position:fixed;
+  top:0; left:0; right:0;
+  z-index: 100;
+}
+.logo h1{
+	 font-size: 25px;
+	 color: #083791;
+	 font-family: 'Lato', sans-serif;
+	 text-transform: uppercase;
+	 font-weight: 400;
+}
+
+.menu ul li a{
+	font-family: 'Roboto', sans-serif;
+	padding-right: 25px !important;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #102039 !important;
+	transition: 0.3s ease;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: #2C90F1 !important;
+}
+.custom_nav{}
+/*==== HEADER CSS END ====*/
+
+/*==== BANNER CSS START ====*/
+.banner{
+	/*background: url(../images/home-banner.jpg);*/
+	background: linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../images/banner.png);
+	background-repeat: no-repeat;
+	background-position: center center right;
+	background-size: cover;
+	padding: 150px 0 100px;
+}
+.banner-title{
+	padding: 100px 0;
+}
+.banner-title h1{
+	margin: 0;
+	font-weight: 700;
+	font-size: 46px;
+	line-height: 55px;
+}
+.banner-title p{
+	margin: 25px 0 40px;
+}
+.custom-btn{
+	margin-right: 15px;
+	padding: 14px 25px;
+	border: 1px solid #207DFF;
+	background: #207DFF;
+}
+.trans-btn{
+	padding: 14px 25px;
+	border: 1px solid #207DFF;
+	color: #083791;
+	background: transparent;
+}
+/*==== BANNER CSS END ====*/
+
+/*==== ABOUT CSS START ====*/
+.about{
+	margin: 80px 0;
+}
+.about-img img{
+	width: 100%;
+	padding: 15px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.about-title h5{
+	margin: 0;
+	font-size: 20px;
+	font-weight: 600;
+}
+.about-title h2{
+	margin: 20px 0;
+	font-size: 42px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.about-title p{
+	margin-bottom: 30px;
+}
+/*==== ABOUT CSS END ====*/
+
+/*==== SERVICE CSS START ====*/
+.service{
+	padding: 80px 0;
+	background: #DBEBFA;
+}
+.section-title h2{
+	margin-bottom: 15px;
+	font-size: 35px;
+	font-weight: 700;
+}
+.service-single{
+	margin-top: 40px;
+	padding: 25px 5px;
+	background: #fff;
+	box-shadow: 0 6px 10px rgb(0 0 0 / 8%);
+}
+.service-icon i{
+	font-size: 40px;
+	color: #207DFF;
+}
+.service-single h5{
+	margin: 15px 0;
+	font-size: 18px;
+	font-weight: 600;
+	color: #222;
+}
+.service-single p{
+	font-size: 14px;
+}
+
+/*==== SERVICE CSS END ====*/
+
+/*==== DEPARTMENT CSS START ====*/
+.department{
+	padding: 80px 0;
+	background: #fff;
+}
+.department-single{
+	margin-top: 30px;
+	background: #fff;
+	/*box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;*/
+	box-shadow: 0 0 30px 0 rgb(0 0 0 / 10%);
+}
+.department-thumb{
+		overflow: hidden; 
+    box-sizing: border-box;
+}
+.inner-img{
+	transition: 0.3s;
+}
+.inner-img:hover{
+	transform: scale(1.1);
+}
+.department-thumb img{
+	width: 100%;
+}
+
+.department-content{
+	padding: 22px 30px 30px;
+}
+.department-content h3{
+	font-size: 22px;
+	font-weight: 600;
+}
+.department-content a{
+	text-decoration: none;
+	font-weight: 500;
+}
+.department-content a:hover{
+	text-decoration: underline;
+}
+/*==== DEPARTMENT CSS END ====*/
+
+
+/*==== EMERGENCY CSS START ====*/
+
+.emergency{
+	background: linear-gradient(to right, #263238, #207DFF);
+    opacity: 0.75;
+	padding: 90px 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.right-border{
+	border-right: 2px solid #2C90F1;
+}
+.appoinment h4{
+	font-size: 22px;
+	font-weight: 700;
+	color: #fff;
+}
+.appoinment p{
+	color: #fff;
+}
+.emergency-btn{
+	padding: 8px 25px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	font-size: 14px;
+	text-align: center;
+	transition: 0.3s all ease;
+	font-weight: 500;
+}
+.contact{
+	margin-left: 50px;
+}
+.emergency-btn:hover{
+	background: #fff;
+	border: 1px solid #fff;
+	color: #207DFF;
+}
+/*==== EMERGENCY CSS END ====*/
+
+
+/*==== DOCTORS CSS START ====*/
+.doctors{
+
+	padding: 80px 0;
+}
+.bottom-title{
+	padding: 20px 0px 30px;
+	
+	/*box-shadow: 0 6px 10px rgb(0 0 0 / 4%);*/
+	box-shadow: 0 0 30px 0 rgb(0 0 0 / 10%);
+}
+.bottom-title h4{
+	margin: 0;
+	font-size: 20px;
+    font-weight: 600;
+}
+.bottom-title p{
+	margin: 6px 0 20px;
+}
+.booking-btn{
+	background: transparent;
+	color: #207DFF;
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 30px;
+	padding: 5px 17px;
+}
+.booking-btn:hover{
+	background: #207DFF;
+	border: 1px solid #207DFF;
+}
+/*********************** image hover *******************/
+.doctors-single{margin-top: 40px;position:relative;transition:all .2s ease-out 0s}
+.doctors-single .box-content,.doctors-single:after{position:absolute;left:20px;right:20px}
+.doctors-single:after{content:"";display:block;background:#207DFF;top:20px;bottom:20px;opacity:0;transform:rotate3d(-1,1,0,100deg);transition:all .4s ease-in-out 0s}
+.doctors-single:hover:after{opacity:.9;transform:rotate3d(0,0,0,0deg)}
+.doctors-single img{width:100%;height:auto}
+.doctors-single .box-content{top:45%;opacity:0;z-index:1;-webkit-transform:translate(10%,-30%);transform:translate(10%,-30%);transition:all .2s ease-out 0s}
+.doctors-single:hover .box-content{opacity:1;transform:translate(0,-50%);transition-delay:.2s}
+.doctors-single .title{display:block;font-size:20px;font-weight:700;color:#fff;margin:10px 0;}
+.doctors-single .post{display:block;font-size:15px;color:#f7f7b9;margin-bottom:20px}
+.doctors-single .social{padding:0;margin:0;list-style:none}
+.doctors-single .social li{display:inline-block}
+.doctors-single .social li a{display:block;width:35px;height:35px;background:#f7f7b9;border-radius:50%;font-size:17px;color:#1b1462;line-height:35px;margin-right:5px;transition:all .4s ease-in-out 0s}
+.box14 .icon li,.box14 .post{display:inline-block}
+.doctors-single .social li a:hover{color:#f7f7b9;background:#39b54a}
+
+
+/*==== DOCTORS CSS END ====*/
+
+
+/*==== APPOINMENT CSS START ====*/
+.make-appoinment{
+	background: #DBEBFA;
+	padding: 80px 0;
+}
+/*FAQ ACCORDIAN*/
+.f-ask{
+	width: 95%;
+}
+.f-ask h3{
+	margin: 0;
+	font-size: 32px;
+	color: #207DFF;
+	font-weight: 700;
+}
+.f-ask p{
+	margin: 16px 0 35px;
+}
+.accordian-1{
+      background: #263238;
+}
+
+.accordion {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 3px solid #FFE071;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 12px 20px;
+  transition: 0.3s all;
+}
+.accordion:hover {
+	background: #207DFF;
+  color: #fff;
+}
+
+.panel {
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 1s ease;
+}
+.panel p {
+  margin: 10px 0px 10px 20px;
+  text-align: justify;
+}
+.open {
+  color: #FFE071;
+}
+.appoinment-form{
+	padding: 40px 0;
+	background: #207DFF;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	border-top: 5px solid #000;
+}
+.form-title h3{
+	margin: 0;
+	color: #fff;
+	font-weight: 700;
+	font-size: 30px;
+}
+.form-title p{
+	margin: 10px 0 30px;
+	font-size: 15px;
+	color: #fff;
+}
+.form-btn{
+	text-transform: uppercase;
+	background: #263238;
+	padding: 10px 0;
+	font-weight: 500;
+	transition: 0.4s all ease;
+}
+.form-btn:hover{
+	background: #fff;
+	color: #207DFF;
+	border: 1px solid #fff;
+}
+/*==== APPOINMENT CSS END ====*/
+
+
+/*==== NEWS CSS STYLE START ====*/
+.news{
+	padding: 80px 0;
+}
+
+.news-img{
+	overflow: hidden; 
+  box-sizing: border-box;
+}
+.iner-img{
+	transition: all 0.7s linear;
+}
+.iner-img:hover{
+	transform: scale(1.23) rotate(10deg);
+}
+.news-img img{
+	width: 100%;
+}
+.news-heading h2{
+	font-size: 40px;
+	font-weight: 700;
+}
+.news-single{
+	margin-top: 40px;
+	background: #F3F6FA;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.news-content{
+	padding: 0px 10px 20px;
+}
+.news-content ul li i{
+	color: #207DFF;
+}
+.news-content h5{
+	margin: 10px 0 15px;
+	font-weight: 600;
+	font-size: 19px;
+	background
+}
+.news-content p{
+	font-size: 15px;
+}
+.news-btn{
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	border: none;
+	color: #207DFF;
+	transition: 0.3s all ease;
+}
+.news-btn:hover{
+	background: transparent;
+	color: #63EAB6;
+}
+/*==== NEWS CSS STYLE END ====*/
+
+/*==== FOOTER CSS START ====*/
+footer{
+	padding: 50px 0 30px;
+	background: #263238;
+	background-repeat: no-repeat;
+
+}
+.footer-title{
+	margin-top: 50px;
+}
+.footer-title h2{
+	margin-bottom: 35px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 18px;
+	color: #ffffff;
+}
+.f-details{
+	margin: 30px 0;
+}
+.r-more-btn{
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	border: none;
+	color: #207DFF;
+	transition: 0.3s all ease;
+}
+.r-more-btn:hover{
+	background: transparent;
+	color: #fff;
+}
+.common-icon i{
+	color: #4a4a4a;
+}
+.common-text p{
+	margin: 0;
+	color: #969595;
+}
+
+.input-box input{
+	border: 0;
+    border-radius: 0;
+    outline: 0;
+}
+.submit-btn button{
+	background: #207DFF;
+    border: 0;
+    border-radius: 0;
+}
+.submit-btn button i{
+	color: #ffffff;
+}
+.social-icon ul li{
+	margin-right: 12px !important;
+}
+.social-icon ul li a i{
+	padding: 13px;
+	border-radius: 6px;
+	font-size: 16px;
+    background: #fff;
+	color: #207DFF;
+    transition: 0.3s all ease;
+}
+.social-icon ul li a i:hover{
+	background: #207DFF;
+	color: #fff;
+}
+.list-link p a{
+	text-decoration: none;
+    color: #969595;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.list-link p a:hover{
+	color: #ffffff;
+}
+.footer-bottom{
+	margin-top: 50px;
+}
+.footer-bottom p{
+	margin: 20px 0 0px;
+	color: #fff;
+}
+/*==== FOOTER CSS END ====*/
+
+
+
